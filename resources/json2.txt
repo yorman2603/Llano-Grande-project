@@ -1,0 +1,57 @@
+{
+		"actions": {
+			"send_dian": false,
+			"send_email": false,
+			"attachments": [
+				{
+					"name": "33338.pdf",
+					"data": "string"
+				}
+			]
+		},
+		"invoice": {
+			"env": "PRODUCCION",
+			"dataico_account_id": "002979c5-7c23-43ab-aa98-3fa7dce6e4d0",
+			"number": "33338",
+			"issue_date": "30/03/2022 09:33:04",
+			"payment_date": "30/03/2022 09:33:04",
+			"order_reference": "33338",
+			"invoice_type_code": "FACTURA_VENTA",
+			"payment_means": "DEBIT_CARD",
+			"payment_means_type": "DEBITO",
+			"numbering": {
+				"resolution_number": "187600000000",
+				"prefix": "",
+				"flexible": true
+			},
+			"notes": [
+				"bancolombia"
+			],
+			"customer": {
+				"email": "sindy.millan@e-chez.com",
+				"phone": "+573194348220",
+				"party_identification_type": "NIT",
+				"party_identification": "900555556",
+				"party_type": "PERSONA_JURIDICA",
+				"tax_level_code": "COMUN",
+				"regimen": "ORDINARIO",
+				"department": "05",
+				"city": "001",
+				"address_line": "Cra 43 9 sur 15",
+				"country_code": "CO",
+				"company_name": "AS27831 Colombia Móvil",
+				"first_name": "Complarketing",
+				"family_name": "Complarketing"
+			},
+			"items": [
+				[{"sku":"","quantity":1,"description":"Descripcion del Producto","measuring_unit":"94","price":30000,"discount_rate":0,"taxes":[{"tax_category":"IVA","tax_description":"zz","tax_rate":19}],"retentions":[{"tax_category":"RET_FUENTE","tax_description":"RET_PRUEBA","tax_rate":1}]},{"sku":"","quantity":1,"description":"Descripcion del Producto","measuring_unit":"94","price":30000,"discount_rate":0,"taxes":[{"tax_category":"IVA","tax_description":"zz","tax_rate":19}],"retentions":[{"tax_category":"RET_FUENTE","tax_description":"RET_PRUEBA","tax_rate":1}]}]
+			],
+			"charges": [
+				{
+					"base_amount": "62856.00",
+					"reason": "descuento ",
+					"discount": true
+				}
+			]
+		}
+	}
